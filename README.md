@@ -15,8 +15,8 @@ If any URLs, prices or other data of a test case needs to be changed, edit the T
 The result is written in the file Logs.txt in the same location of TestAutomation.exe
 It looks like:
 
-1/20/2015 9:16:36 PM: START::TC_Validate_error_message_in_register_new_account_form
-1/20/2015 9:18:13 PM: START::TC_Validate_product_information_between_cart_page_and_product_detail_page
-1/20/2015 9:19:15 PM: Check price. Cart: 989.000 VND. Detail page: 1.899.000 VND
-1/20/2015 9:19:15 PM: Assert failed
-1/20/2015 9:19:15 PM: START::TC_Validate_subtotal_price_when_change_qty_in_cart_popup
+    1/20/2015 9:16:36 PM: START::TC_Validate_error_message_in_register_new_account_form
+    1/20/2015 9:18:13 PM: START::TC_Validate_product_information_between_cart_page_and_product_detail_page
+    1/20/2015 9:19:15 PM: Check price. Cart: 989.000 VND. Detail page: 1.899.000 VND
+    1/20/2015 9:19:15 PM: Assert failed
+    1/20/2015 9:19:15 PM: START::TC_Validate_subtotal_price_when_change_qty_in_cart_popup

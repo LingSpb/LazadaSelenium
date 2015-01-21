@@ -4,9 +4,11 @@
 
 2) It is created using the free Express version of Microsoft Visual Studio 2010 instead of Professional which requires licensing. Unfortunately, the limitations of Express does not allow creation of a proper Test Project with the MSTest runner. Instead, to make the test run, I created my own assertion method, which is located in Utils.cs (method public static void AssertIsTrue(bool result, string message))
 
-3) I realized that Selenium doesn’t support .NET quite as well as Java, but because I’m more comfortable with C# and because of the limited time, I chose to write in C# instead of Java or any other language.
+3) If any URLs, prices or other data needs to be changed, edit the TestData.xml file which should reside in the same folder as the executable file.
 
-4) Sometimes, program execution stops with the Firefox page load spinner forever spinning. I’m not sure yet it’s bug from Lazada side or Selenium/Firefox. Likely the latter.
+4) I realized that Selenium doesn’t support .NET quite as well as Java, but because I’m more comfortable with C# and because of the limited time, I chose to write in C# instead of Java or any other language.
+
+5) Sometimes, program execution stops with the Firefox page load spinner forever spinning. I’m not sure yet it’s bug from Lazada side or Selenium/Firefox. Likely the latter.
 
 5) Because my current testcases are not marked as [TestMethod] (as the MSTest test runner expects), to run them, I created a RunTest class to execute the test cases.
 

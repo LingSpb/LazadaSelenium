@@ -1,0 +1,18 @@
+﻿<testdata>
+  <testcase test="TC_Validate_error_message_in_register_new_account_form">
+    <url>http://www.lazada.vn/</url>
+    <username>Linh Nguyen</username>
+    <email>test@abc.com</email>
+    <password>Aasd#455sfd</password>
+    <message>Mật khẩu phải có ít nhất 1 chữ số</message>
+  </testcase>
+  <testcase test="TC_Validate_product_information_between_cart_page_and_product_detail_page">
+    <product>http://www.lazada.vn/invicta-8927-dong-ho-nam-bac-vien-vang-209542.html</product>
+  </testcase>
+  <testcase test="TC_Validate_subtotal_price_when_change_qty_in_cart_popup">
+    <product1>http://www.lazada.vn/sua-tam-purite-by-provence-hoa-anh-dao-500ml-57049.html</product1>
+    <product2>http://www.lazada.vn/deantech-da-209-two-color-camera-giam-sat-trang-129731.html</product2>
+    <changingIndex>1</changingIndex>
+    <changingQuantity>3</changingQuantity>
+  </testcase>
+</testdata>
